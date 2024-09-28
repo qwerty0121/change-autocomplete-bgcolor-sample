@@ -1,0 +1,5 @@
+/* :autofill擬似クラスで自動補完された<input>要素が一致する */
+input:autofill {
+  /* background-colorでは背景色を変更できないのでbox-shadowを利用している */
+  box-shadow: 0 0 0 1000px white inset;
+}
